@@ -18,12 +18,12 @@ showQuantities.addEventListener("click", (event) => {
     const browserWithoutBandHeight = document.documentElement.clientHeight;
 
     //Вывод информации
-    resultsArea.innerHTML = `
-        <span class="device-width">Ширина устройства: ${deviceWidth} px</span>
-        <span class="device-height">Высота устройства: ${deviceHeight} px</span>
-        <span class="browser-with-band-width">Ширина окна браузера с полосой прокрутки: ${browserWithBandWidth} px</span>
-        <span class="browser-with-band-height">Высота окна браузера с полосой прокрутки: ${browserWithBandHeight} px</span>
-        <span class="browser-without-band-width">Ширина окна браузера без полосы прокрутки: ${browserWithoutBandWidth} px</span>
-        <span class="browser-without-band-height">Высота окна браузера без полосы прокрутки: ${browserWithoutBandHeight} px</span>
-    `;
+    alert(`
+        Ширина устройства: ${deviceWidth} px
+        Высота устройства: ${deviceHeight} px
+        Ширина окна браузера с полосой прокрутки: ${browserWithBandWidth} px
+        Высота окна браузера с полосой прокрутки: ${browserWithBandHeight} px
+        Ширина окна браузера без полосы прокрутки: ${browserWithoutBandWidth} px
+        Высота окна браузера без полосы прокрутки: ${browserWithoutBandHeight} px
+    `)
 });
