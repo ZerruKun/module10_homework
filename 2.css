@@ -1,0 +1,50 @@
+.quantities {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    text-align: center;
+    align-items: center;
+}
+
+.show-quantities-button {
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+.device-width,
+.device-height,
+.browser-with-band-width,
+.browser-with-band-height,
+.browser-without-band-width,
+.browser-without-band-height {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.device-width,
+.browser-with-band-width,
+.browser-without-band-width {
+    margin-bottom: 10px;
+}
+
+.device-height,
+.browser-with-band-height,
+.browser-without-band-height {
+    margin-bottom: 20px;
+}
+
+.device-width,
+.device-height {
+    color: #000000;
+}
+
+.browser-with-band-width,
+.browser-with-band-height {
+    color: #2f4f4f;
+}
+
+.browser-without-band-width,
+.browser-without-band-height {
+    color: #696969;
+}
