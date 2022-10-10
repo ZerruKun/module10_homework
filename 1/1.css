@@ -1,0 +1,17 @@
+.button-section {
+    width: 300px;
+    margin: 30px auto;
+}
+
+.icon-change-button {
+    display: flex;
+    margin: 10px 10px;
+}
+
+.button-text {
+    margin-right: 10px;
+}
+
+.hidden {
+    display: none;
+}
