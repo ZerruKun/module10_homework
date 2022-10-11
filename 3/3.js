@@ -41,7 +41,7 @@ const sucсess = (position) => {
   const longitude = position.coords.longitude;
   messages.innerHTML =
     messages.innerHTML +
-    `<a class="geoMessage" href="https://www.openstreetmap.org/#map=18/${latitude}/${longitude}">Геолокация</a>`;
+    `<a class="geoMessage" href="https://www.openstreetmap.org/#map=18/${latitude}/${longitude}" target="_blank">Геолокация</a>`;
   console.log("Добавлена ссылка на геолокацию");
 };
 
