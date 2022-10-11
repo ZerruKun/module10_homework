@@ -1,0 +1,85 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+.chat-container {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    align-items: center;
+    border: 1px solid #bad6eb;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.type-space {
+    margin: 15px 0px;
+}
+
+.inputField {
+    width: 300px;
+    border: none;
+    outline: 3px solid #bad6eb;
+}
+
+.inputField:focus {
+    outline: 3px solid #95abbc;
+}
+
+.send-button,
+.geolocation-button {
+    margin-left: 15px;
+    padding: 5px 10px;
+    border-radius: 0%;
+    background-color: #bad6eb;
+}
+
+.send-button:hover,
+.geolocation-button:hover {
+    background-color: #95abbc;
+}
+
+.messages {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    margin-bottom: 15px;
+    border: 3px solid #bad6eb;
+}
+
+
+.userMessage,
+.serverMessage,
+.geoMessage {
+    width:200px;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    word-break:break-all;
+    border: 3px solid #bad6eb;
+    border-radius: 7px;
+}
+
+.userMessage {
+    align-self: flex-end;
+    color: #2a2a2a;
+}
+
+.serverMessage {
+    align-self: flex-start;
+    color: #2a2a2a;
+}
+
+.geoMessage {
+    align-self: flex-end;
+    color:#4f87c3;
+    text-decoration: none;
+}
