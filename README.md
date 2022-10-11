@@ -14,5 +14,6 @@
 Эхо-сервер будет отвечать вам тем же сообщением, его также необходимо выводить в чат (картинка 1).
 Добавить в чат механизм отправки гео-локации (картинка 2).
 При клике на кнопку «Гео-локация» необходимо отправить данные серверу и в чат вывести ссылку на https://www.openstreetmap.org/ с вашей гео-локацией. Сообщение, которое отправит обратно эхо-сервер, не выводить.
+<br>
 <img align="left" alt="chat" width="300px" src="https://github.com/ZerruKun/module10_homework/blob/master/forReadme/1.png"/>
 <img align="left" alt="geolocation" width="300px" src="https://github.com/ZerruKun/module10_homework/blob/master/forReadme/2.png"/>
